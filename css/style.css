@@ -1,0 +1,79 @@
+/* Website For WeatherApp 
+to display Weather 
+font-family: 'Hepta Slab', serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Roboto+Condensed&display=swap');
+
+
+/* Weather Css*/
+
+.WeatherApp{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 8em 10em 0em 8em;
+    
+}
+.WeatherApp .section1{
+    padding-right: 3em;
+    background-color: #00a1ff;
+    padding-left: 2em;
+}
+.WeatherApp .section1 h1{
+    margin-top: 6em;
+    margin-left: 2em; 
+    /* text-align: center; */
+}
+
+.WeatherApp .section2{
+    background-color: #f1f1f1;
+    padding-bottom: 4em; 
+    padding-left: 2em;
+}
+
+.WeatherApp .section2 .display{
+    text-align: left;
+    margin-bottom: 10em;
+
+}
+.WeatherApp .section2 .display .displaycity{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.WeatherApp .section2 .display .displayWeather{
+    font-family: 'Hepta Slab', serif;
+}
+.WeatherApp .section2 .display .displayWeather .displayWeatherinfo {
+    font-size: 0.7em;
+}
+.WeatherApp .section2 .display .displayWeather sup{
+    font-size:0.5em;
+}
+
+.WeatherApp .section2 .selectWeather select,
+.WeatherApp .section2 .selectWeather a{
+    
+    font-family: 'Hepta Slab', serif;
+    font-size: .8em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.WeatherApp .section2 .selectWeather select{
+   border-color: #86c4d2; 
+}
+
+.WeatherApp .section2 .selectWeather a{
+    background-color:#86c4d2;
+    color: #ffffff;
+    text-decoration: none;  
+}
+.WeatherApp .section2 .selectWeather a:hover{
+    background-color:#b3d5dc;
+    color: #ffffff;
+    text-decoration: none;  
+}
+.active{
+    color: #00a1ff;
+}

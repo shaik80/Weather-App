@@ -1,0 +1,60 @@
+<!--    Website For WeatherApp 
+        to display Weather
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather | Home</title>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        
+        <!-- start main containt for WeatherApp -->
+        <div class="WeatherApp">
+             
+            <!-- Start Information Section1 -->
+            <div class="section1">
+                <h1><span style="color: #ffffff">Weather</span> App</h1>
+           </div>
+            <!-- End Information Section1 -->
+
+            <!-- Start Information Section2 -->
+            <div class="section2">
+                    <div class="display">
+                        <div class="displaycity">
+                                <h1 id="displaycity">Bangalore,Karnataka</h1>
+                        </div>
+                        <div class="displayWeather">
+                            <div class="displayWeatherinfo">
+                                <p id="daytime"></p>
+                                <p id="info">partly Clould</p>
+                            </div>
+                            <h1 >
+                                <span id="celsius">20</span>
+                                <sup class="calsfah">
+                                    <span onclick="convert('C')" id="C">&#8451;</span>|
+                                    <span onclick="convert('F')" id="F">&#8457;</span>
+                                </sup>
+                            </h1>
+                        </div>            
+                </div>
+                <div class="selectWeather">
+                    <select id="city" onchange="getdatacel()">
+                       <option value="Bangalore">Bangalore</option>
+                       <option value="Delhi">Delhi</option>
+                       <option value="Mumbai">Mumbai</option> 
+                    </select>       
+                    <!-- <input type="text" placeholder="Enter Your City" id="city" value="Bangalore"> -->
+                    <!-- <a href="#" onclick="getdatacel()">Submit</a> -->
+                </div>
+            
+            </div>
+            <!-- End Information Section2 -->
+        </div>
+        <!-- end main containt for WeatherApp -->
+       
+        <!-- javascript -->
+        <script src="./js/script.js" type="text/javascript"></script>
+    </body>
+</html>
