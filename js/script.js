@@ -19,9 +19,9 @@ document.getElementById("daytime").innerHTML = dayword[day] +" "+ date +" "+ ses
 getdatacel();
 function getdatacel(){
   let val =[
-    {city:"Bangalore",celsius:"10",info:"partly Clould"},
-    {city:"Delhi",celsius:"20",info:"Sunny"},
-    {city:"Mumbai",celsius:"30",info:"Rain"}
+    {city:"Bangalore",celsius:"10",info:"partly Clould",img:"⛅"},
+    {city:"Delhi",celsius:"20",info:"Sunny",img:"☀️"},
+    {city:"Mumbai",celsius:"30",info:"Rain",img:"🌧️"}
   ];
   let a = document.getElementById("city").value;
   let b = document.getElementById("displaycity");
@@ -29,7 +29,8 @@ function getdatacel(){
   let output = val.filter(v => (v.city == a))
                   .map(v=> { document.getElementById("displaycity").innerHTML = v.city,
                   document.getElementById("celsius").innerHTML = v.celsius,
-                  document.getElementById("info").innerHTML = v.info})
+                  document.getElementById("info").innerHTML = v.info,
+                  document.getElementById("emoji").innerHTML = v.img})
                   document.getElementById('C').classList.add("active");
                   document.getElementById('C').style.pointerEvents = "none";
   console.log(output)      
