@@ -16,43 +16,43 @@ font-family: 'Roboto Condensed', sans-serif;
     margin: 8em 10em 0em 8em;
     
 }
-.WeatherApp .section1{
+.WeatherApp .left{
     padding-right: 3em;
     background-color: #00a1ff;
     padding-left: 2em;
 }
-.WeatherApp .section1 h1{
+.WeatherApp .left h1{
     margin-top: 6em;
     margin-left: 2em; 
     /* text-align: center; */
 }
 
-.WeatherApp .section2{
+.WeatherApp .right{
     background-color: #f1f1f1;
     padding-bottom: 4em; 
     padding-left: 2em;
 }
 
-.WeatherApp .section2 .display{
+.WeatherApp .right .display{
     text-align: left;
     margin-bottom: 10em;
 
 }
-.WeatherApp .section2 .display .displaycity{
+.WeatherApp .right .display .displaycity{
     font-family: 'Roboto Condensed', sans-serif;
 }
-.WeatherApp .section2 .display .displayWeather{
+.WeatherApp .right .display .displayWeather{
     font-family: 'Hepta Slab', serif;
 }
-.WeatherApp .section2 .display .displayWeather .displayWeatherinfo {
+.WeatherApp .right .display .displayWeather .displayWeatherinfo {
     font-size: 0.7em;
 }
-.WeatherApp .section2 .display .displayWeather sup{
+.WeatherApp .right .display .displayWeather sup{
     font-size:0.5em;
 }
 
-.WeatherApp .section2 .selectWeather select,
-.WeatherApp .section2 .selectWeather a{
+.WeatherApp .right .selectWeather select,
+.WeatherApp .right .selectWeather a{
     
     font-family: 'Hepta Slab', serif;
     font-size: .8em;
@@ -60,16 +60,16 @@ font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 1em;
 }
 
-.WeatherApp .section2 .selectWeather select{
+.WeatherApp .right .selectWeather select{
    border-color: #86c4d2; 
 }
 
-.WeatherApp .section2 .selectWeather a{
+.WeatherApp .right .selectWeather a{
     background-color:#86c4d2;
     color: #ffffff;
     text-decoration: none;  
 }
-.WeatherApp .section2 .selectWeather a:hover{
+.WeatherApp .right .selectWeather a:hover{
     background-color:#b3d5dc;
     color: #ffffff;
     text-decoration: none;  
