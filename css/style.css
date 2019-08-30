@@ -24,7 +24,6 @@ font-family: 'Roboto Condensed', sans-serif;
 .WeatherApp .left h1{
     margin-top: 6em;
     margin-left: 2em; 
-    /* text-align: center; */
 }
 
 .WeatherApp .right{
